@@ -1,0 +1,20 @@
+[0.380s] Invoking command in '/home/adarsh/ros2_ws/build/robot_controller': PYTHONPATH=/home/adarsh/ros2_ws/build/robot_controller/prefix_override:/home/adarsh/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/adarsh/ros2_ws/build/robot_controller/build --no-deps symlink_data
+[0.562s] running develop
+[0.648s] running egg_info
+[0.648s] writing robot_controller.egg-info/PKG-INFO
+[0.649s] writing dependency_links to robot_controller.egg-info/dependency_links.txt
+[0.649s] writing entry points to robot_controller.egg-info/entry_points.txt
+[0.649s] writing requirements to robot_controller.egg-info/requires.txt
+[0.649s] writing top-level names to robot_controller.egg-info/top_level.txt
+[0.651s] reading manifest file 'robot_controller.egg-info/SOURCES.txt'
+[0.651s] writing manifest file 'robot_controller.egg-info/SOURCES.txt'
+[0.653s] running build_ext
+[0.653s] Creating /home/adarsh/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot-controller.egg-link (link to .)
+[0.654s] Installing ctt_node script to /home/adarsh/ros2_ws/install/robot_controller/lib/robot_controller
+[0.654s] Installing pos_node script to /home/adarsh/ros2_ws/install/robot_controller/lib/robot_controller
+[0.654s] Installing test_node script to /home/adarsh/ros2_ws/install/robot_controller/lib/robot_controller
+[0.654s] Installing test_node2 script to /home/adarsh/ros2_ws/install/robot_controller/lib/robot_controller
+[0.654s] 
+[0.654s] Installed /home/adarsh/ros2_ws/build/robot_controller
+[0.654s] running symlink_data
+[0.677s] Invoked command in '/home/adarsh/ros2_ws/build/robot_controller' returned '0': PYTHONPATH=/home/adarsh/ros2_ws/build/robot_controller/prefix_override:/home/adarsh/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/adarsh/ros2_ws/build/robot_controller/build --no-deps symlink_data

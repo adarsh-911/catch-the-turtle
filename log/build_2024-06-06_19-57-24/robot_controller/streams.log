@@ -1,0 +1,45 @@
+[0.430s] Invoking command in '/home/adarsh/ros2_ws/build/robot_controller': PYTHONPATH=/home/adarsh/ros2_ws/build/robot_controller/prefix_override:/home/adarsh/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/adarsh/ros2_ws/build/robot_controller/build
+[0.599s] running develop
+[0.681s] Removing /home/adarsh/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot-controller.egg-link (link to .)
+[0.706s] Invoked command in '/home/adarsh/ros2_ws/build/robot_controller' returned '0': PYTHONPATH=/home/adarsh/ros2_ws/build/robot_controller/prefix_override:/home/adarsh/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/adarsh/ros2_ws/build/robot_controller/build
+[0.707s] Invoking command in '/home/adarsh/ros2_ws/src/robot_controller': PYTHONPATH=/home/adarsh/ros2_ws/build/robot_controller/prefix_override:/home/adarsh/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/adarsh/ros2_ws/build/robot_controller/build install --record /home/adarsh/ros2_ws/build/robot_controller/install.log --single-version-externally-managed install_data --force
+[0.855s] running egg_info
+[0.855s] writing ../../build/robot_controller/robot_controller.egg-info/PKG-INFO
+[0.857s] writing dependency_links to ../../build/robot_controller/robot_controller.egg-info/dependency_links.txt
+[0.859s] writing entry points to ../../build/robot_controller/robot_controller.egg-info/entry_points.txt
+[0.859s] writing requirements to ../../build/robot_controller/robot_controller.egg-info/requires.txt
+[0.859s] writing top-level names to ../../build/robot_controller/robot_controller.egg-info/top_level.txt
+[0.862s] reading manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[0.863s] writing manifest file '../../build/robot_controller/robot_controller.egg-info/SOURCES.txt'
+[0.863s] running build
+[0.863s] running build_py
+[0.863s] copying robot_controller/pose_sub.py -> /home/adarsh/ros2_ws/build/robot_controller/build/lib/robot_controller
+[0.863s] copying robot_controller/ctt.py -> /home/adarsh/ros2_ws/build/robot_controller/build/lib/robot_controller
+[0.863s] copying robot_controller/first_node.py -> /home/adarsh/ros2_ws/build/robot_controller/build/lib/robot_controller
+[0.864s] copying robot_controller/second_node.py -> /home/adarsh/ros2_ws/build/robot_controller/build/lib/robot_controller
+[0.864s] running install
+[0.864s] running install_lib
+[0.865s] creating /home/adarsh/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller
+[0.865s] copying /home/adarsh/ros2_ws/build/robot_controller/build/lib/robot_controller/__init__.py -> /home/adarsh/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller
+[0.865s] copying /home/adarsh/ros2_ws/build/robot_controller/build/lib/robot_controller/pose_sub.py -> /home/adarsh/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller
+[0.865s] copying /home/adarsh/ros2_ws/build/robot_controller/build/lib/robot_controller/ctt.py -> /home/adarsh/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller
+[0.866s] copying /home/adarsh/ros2_ws/build/robot_controller/build/lib/robot_controller/first_node.py -> /home/adarsh/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller
+[0.866s] copying /home/adarsh/ros2_ws/build/robot_controller/build/lib/robot_controller/second_node.py -> /home/adarsh/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller
+[0.866s] byte-compiling /home/adarsh/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/__init__.py to __init__.cpython-310.pyc
+[0.866s] byte-compiling /home/adarsh/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/pose_sub.py to pose_sub.cpython-310.pyc
+[0.866s] byte-compiling /home/adarsh/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/ctt.py to ctt.cpython-310.pyc
+[0.867s] Sorry: IndentationError: expected an indented block after 'if' statement on line 23 (ctt.py, line 24)
+[0.867s] byte-compiling /home/adarsh/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/first_node.py to first_node.cpython-310.pyc
+[0.867s] byte-compiling /home/adarsh/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller/second_node.py to second_node.cpython-310.pyc
+[0.867s] running install_data
+[0.867s] copying resource/robot_controller -> /home/adarsh/ros2_ws/install/robot_controller/share/ament_index/resource_index/packages
+[0.867s] copying package.xml -> /home/adarsh/ros2_ws/install/robot_controller/share/robot_controller
+[0.867s] running install_egg_info
+[0.869s] Copying ../../build/robot_controller/robot_controller.egg-info to /home/adarsh/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot_controller-0.0.0-py3.10.egg-info
+[0.870s] running install_scripts
+[0.888s] Installing ctt_node script to /home/adarsh/ros2_ws/install/robot_controller/lib/robot_controller
+[0.888s] Installing pos_node script to /home/adarsh/ros2_ws/install/robot_controller/lib/robot_controller
+[0.888s] Installing test_node script to /home/adarsh/ros2_ws/install/robot_controller/lib/robot_controller
+[0.889s] Installing test_node2 script to /home/adarsh/ros2_ws/install/robot_controller/lib/robot_controller
+[0.889s] writing list of installed files to '/home/adarsh/ros2_ws/build/robot_controller/install.log'
+[0.918s] Invoked command in '/home/adarsh/ros2_ws/src/robot_controller' returned '0': PYTHONPATH=/home/adarsh/ros2_ws/build/robot_controller/prefix_override:/home/adarsh/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_controller build --build-base /home/adarsh/ros2_ws/build/robot_controller/build install --record /home/adarsh/ros2_ws/build/robot_controller/install.log --single-version-externally-managed install_data --force

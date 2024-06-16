@@ -1,0 +1,18 @@
+[0.458s] Invoking command in '/home/adarsh/ros2_ws/build/robot_controller': PYTHONPATH=/home/adarsh/ros2_ws/build/robot_controller/prefix_override:/home/adarsh/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/adarsh/ros2_ws/build/robot_controller/build --no-deps symlink_data
+[0.635s] running develop
+[0.718s] running egg_info
+[0.718s] writing robot_controller.egg-info/PKG-INFO
+[0.718s] writing dependency_links to robot_controller.egg-info/dependency_links.txt
+[0.719s] writing entry points to robot_controller.egg-info/entry_points.txt
+[0.719s] writing requirements to robot_controller.egg-info/requires.txt
+[0.719s] writing top-level names to robot_controller.egg-info/top_level.txt
+[0.721s] reading manifest file 'robot_controller.egg-info/SOURCES.txt'
+[0.723s] writing manifest file 'robot_controller.egg-info/SOURCES.txt'
+[0.724s] running build_ext
+[0.724s] Creating /home/adarsh/ros2_ws/install/robot_controller/lib/python3.10/site-packages/robot-controller.egg-link (link to .)
+[0.725s] Installing test_node script to /home/adarsh/ros2_ws/install/robot_controller/lib/robot_controller
+[0.725s] Installing test_node2 script to /home/adarsh/ros2_ws/install/robot_controller/lib/robot_controller
+[0.726s] 
+[0.726s] Installed /home/adarsh/ros2_ws/build/robot_controller
+[0.726s] running symlink_data
+[0.747s] Invoked command in '/home/adarsh/ros2_ws/build/robot_controller' returned '0': PYTHONPATH=/home/adarsh/ros2_ws/build/robot_controller/prefix_override:/home/adarsh/ros2_ws/install/robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/adarsh/ros2_ws/build/robot_controller/build --no-deps symlink_data
