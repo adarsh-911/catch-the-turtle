@@ -26,8 +26,8 @@ class Pos(Node):
         self.buffer += 1
         if self.buffer == 20:
             if (((pos.x - self.prev_x)**2 + (pos.y - self.prev_y)**2) <= 0.5):
-                self.prev_x = random.uniform(1,7)
-                self.prev_y = random.uniform(1,7)
+                self.prev_x = random.uniform(1,10)
+                self.prev_y = random.uniform(1,10)
                 self.call_kill_serv('john'+str(self.points))
                 self.points += 1
                 self.call_spawn_serv(self.prev_x, self.prev_y, 0.0,'john'+str(self.points))
