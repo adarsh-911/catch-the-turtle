@@ -1,0 +1,6 @@
+[console_scripts]
+ctt_node = robot_controller.ctt:main
+pos_node = robot_controller.pose_sub:main
+test_node = robot_controller.first_node:main
+test_node2 = robot_controller.second_node:main
+
